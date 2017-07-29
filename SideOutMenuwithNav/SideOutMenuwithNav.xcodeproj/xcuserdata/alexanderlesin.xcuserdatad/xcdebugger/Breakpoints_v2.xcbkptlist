@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SideOutMenuwithNav/ViewController.swift"
+            timestampString = "523036857.635675"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1"
+            endingLineNumber = "1">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SideOutMenuwithNav.ViewController.__deallocating_deinit"
+                  moduleName = "SideOutMenuwithNav"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexanderlesin/Projects/CommonSwift/SideOutMenuwithNav/SideOutMenuwithNav/ViewController.swift"
+                  timestampString = "523037199.822575"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SideOutMenuwithNav.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SideOutMenuwithNav.ViewController"
+                  moduleName = "SideOutMenuwithNav"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexanderlesin/Projects/CommonSwift/SideOutMenuwithNav/SideOutMenuwithNav/ViewController.swift"
+                  timestampString = "523037199.843661"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "118">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SideOutMenuwithNav.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SideOutMenuwithNav.ViewController"
+                  moduleName = "SideOutMenuwithNav"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexanderlesin/Projects/CommonSwift/SideOutMenuwithNav/SideOutMenuwithNav/ViewController.swift"
+                  timestampString = "523037199.853799"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SideOutMenuwithNav.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;SideOutMenuwithNav.ViewController&gt;"
+                  moduleName = "SideOutMenuwithNav"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexanderlesin/Projects/CommonSwift/SideOutMenuwithNav/SideOutMenuwithNav/ViewController.swift"
+                  timestampString = "523037199.864357"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SideOutMenuwithNav.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;SideOutMenuwithNav.ViewController&gt;"
+                  moduleName = "SideOutMenuwithNav"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alexanderlesin/Projects/CommonSwift/SideOutMenuwithNav/SideOutMenuwithNav/ViewController.swift"
+                  timestampString = "523037199.870069"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
