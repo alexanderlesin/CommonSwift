@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        leftLeading.constant = -menuContainter.frame.width
-        self.view.layoutIfNeeded()
+        leftLeading.constant = -self.view.frame.width*0.6
+//        self.view.layoutIfNeeded()
     }
     
     override func didReceiveMemoryWarning() {
