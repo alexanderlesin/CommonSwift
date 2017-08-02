@@ -13,6 +13,8 @@ class MenuTableViewController: UITableViewController {
     var tbc: UITabBarController!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.tableFooterView = UIView(frame: .zero)
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
