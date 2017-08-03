@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var contentContainer: UIView!
     @IBOutlet weak var leftLeading: NSLayoutConstraint!
     @IBOutlet weak var menuContainter: UIView!
     override func viewDidLoad() {
@@ -39,7 +40,7 @@ class ViewController: UIViewController {
         borderLayer.path = maskLayer.path // Reuse the Bezier path
         borderLayer.fillColor = UIColor.clear.cgColor
         borderLayer.strokeColor = UIColor.lightGray.cgColor
-        borderLayer.lineWidth = 1
+        borderLayer.lineWidth = 2
         borderLayer.frame = menuContainter.bounds
         menuContainter.layer.addSublayer(borderLayer)
         
@@ -63,6 +64,11 @@ class ViewController: UIViewController {
         menuContainter.layer.addSublayer(bottomborder)
         
         
+        // Add upperborder
+        let upperborder2 = CALayer()
+        upperborder2.frame = CGRect(x: -10, y: 0, width: self.view.frame.width, height: 1)
+        upperborder2.backgroundColor = UIColor.lightGray.cgColor
+        contentContainer.layer.addSublayer(upperborder2)
         
     }
     override func didReceiveMemoryWarning() {
