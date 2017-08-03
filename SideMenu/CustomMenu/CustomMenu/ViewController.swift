@@ -16,7 +16,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         leftLeading.constant = -self.view.frame.width*0.6
-//        self.view.layoutIfNeeded()
+        
+        // Remove the Navigation Bar Border
+        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
+        self.navigationController?.navigationBar.shadowImage = UIImage()
     }
     
     override func didReceiveMemoryWarning() {
