@@ -44,6 +44,24 @@ class ViewController: UIViewController {
         menuContainter.layer.addSublayer(borderLayer)
         
         
+        // Add upperborder
+        let upperborder = CALayer()
+        upperborder.frame = CGRect(x: 0, y: 0, width: menuContainter.frame.width, height: 1)
+        upperborder.backgroundColor = UIColor.white.cgColor
+        menuContainter.layer.addSublayer(upperborder)
+        
+        // Add left border
+        let leftborder = CALayer()
+        leftborder.frame = CGRect(x: 0, y: 0, width: 1, height: menuContainter.frame.height)
+        leftborder.backgroundColor = UIColor.white.cgColor
+        menuContainter.layer.addSublayer(leftborder)
+        
+        // Add bottom border
+        let bottomborder = CALayer()
+        bottomborder.frame = CGRect(x: menuContainter.frame.height-1, y: 0, width: menuContainter.frame.width, height: 1)
+        bottomborder.backgroundColor = UIColor.white.cgColor
+        menuContainter.layer.addSublayer(bottomborder)
+        
         
         
     }
