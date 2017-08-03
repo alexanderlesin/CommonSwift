@@ -1,12 +1,15 @@
 PODS:
   - SwiftySettings (1.0.0)
+  - SwiftyUserDefaults (3.0.0)
 
 DEPENDENCIES:
   - SwiftySettings
+  - SwiftyUserDefaults
 
 SPEC CHECKSUMS:
   SwiftySettings: fa9615f188c5e66561c5291e3a7271b3a4da3fda
+  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
 
-PODFILE CHECKSUM: df79dbb1b3122d6fdd26c9cdf4288e493ed27e73
+PODFILE CHECKSUM: 4fdee6ad1593531d0b4e20caf79488e61d4cd4d7
 
 COCOAPODS: 1.2.1

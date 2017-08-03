@@ -7,6 +7,7 @@ target 'SwiftSettingsExample' do
 
   # Pods for SwiftSettingsExample
   pod 'SwiftySettings'
+  pod 'SwiftyUserDefaults'
   target 'SwiftSettingsExampleUITests' do
     inherit! :search_paths
     # Pods for testing

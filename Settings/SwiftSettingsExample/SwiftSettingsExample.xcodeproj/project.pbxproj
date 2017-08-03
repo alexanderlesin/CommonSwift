@@ -10,11 +10,11 @@
 		67ED2CF730C9392545F7DD77 /* Pods_SwiftSettingsExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28536165346E0A244F45791 /* Pods_SwiftSettingsExampleUITests.framework */; };
 		F0A96B4475D5F97B729AE21D /* Pods_SwiftSettingsExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51A0C889C8B71E22ACF84351 /* Pods_SwiftSettingsExample.framework */; };
 		F39C995D1F33C0510020D516 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C995C1F33C0510020D516 /* AppDelegate.swift */; };
-		F39C995F1F33C0510020D516 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C995E1F33C0510020D516 /* ViewController.swift */; };
 		F39C99621F33C0510020D516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39C99601F33C0510020D516 /* Main.storyboard */; };
 		F39C99641F33C0510020D516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39C99631F33C0510020D516 /* Assets.xcassets */; };
 		F39C99671F33C0510020D516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39C99651F33C0510020D516 /* LaunchScreen.storyboard */; };
 		F39C99721F33C0510020D516 /* SwiftSettingsExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C99711F33C0510020D516 /* SwiftSettingsExampleUITests.swift */; };
+		F39C99811F33C7DA0020D516 /* ExampleSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C99801F33C7DA0020D516 /* ExampleSettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 		D61CE8261691305271BFD413 /* Pods-SwiftSettingsExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftSettingsExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftSettingsExampleUITests/Pods-SwiftSettingsExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F39C99591F33C0510020D516 /* SwiftSettingsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSettingsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F39C995C1F33C0510020D516 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F39C995E1F33C0510020D516 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F39C99611F33C0510020D516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F39C99631F33C0510020D516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F39C99661F33C0510020D516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -44,6 +43,7 @@
 		F39C996D1F33C0510020D516 /* SwiftSettingsExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSettingsExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F39C99711F33C0510020D516 /* SwiftSettingsExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSettingsExampleUITests.swift; sourceTree = "<group>"; };
 		F39C99731F33C0510020D516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39C99801F33C7DA0020D516 /* ExampleSettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleSettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +110,11 @@
 			isa = PBXGroup;
 			children = (
 				F39C995C1F33C0510020D516 /* AppDelegate.swift */,
-				F39C995E1F33C0510020D516 /* ViewController.swift */,
 				F39C99601F33C0510020D516 /* Main.storyboard */,
 				F39C99631F33C0510020D516 /* Assets.xcassets */,
 				F39C99651F33C0510020D516 /* LaunchScreen.storyboard */,
 				F39C99681F33C0510020D516 /* Info.plist */,
+				F39C99801F33C7DA0020D516 /* ExampleSettingsViewController.swift */,
 			);
 			path = SwiftSettingsExample;
 			sourceTree = "<group>";
@@ -330,7 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F39C995F1F33C0510020D516 /* ViewController.swift in Sources */,
+				F39C99811F33C7DA0020D516 /* ExampleSettingsViewController.swift in Sources */,
 				F39C995D1F33C0510020D516 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -541,6 +541,7 @@
 				F39C99781F33C0510020D516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F39C99791F33C0510020D516 /* Build configuration list for PBXNativeTarget "SwiftSettingsExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +550,7 @@
 				F39C997B1F33C0510020D516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
