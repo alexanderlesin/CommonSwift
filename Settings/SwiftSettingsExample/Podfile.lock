@@ -1,0 +1,12 @@
+PODS:
+  - SwiftySettings (1.0.0)
+
+DEPENDENCIES:
+  - SwiftySettings
+
+SPEC CHECKSUMS:
+  SwiftySettings: fa9615f188c5e66561c5291e3a7271b3a4da3fda
+
+PODFILE CHECKSUM: df79dbb1b3122d6fdd26c9cdf4288e493ed27e73
+
+COCOAPODS: 1.2.1
