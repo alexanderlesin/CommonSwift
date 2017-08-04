@@ -13,6 +13,7 @@
 		F36263421F34CB4700080B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36263411F34CB4700080B12 /* Assets.xcassets */; };
 		F36263451F34CB4700080B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36263431F34CB4700080B12 /* LaunchScreen.storyboard */; };
 		F36263501F34CB4700080B12 /* SettingBundleExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F362634F1F34CB4700080B12 /* SettingBundleExampleUITests.swift */; };
+		F362635B1F34CBB300080B12 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F362635A1F34CBB300080B12 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		F362634B1F34CB4700080B12 /* SettingBundleExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SettingBundleExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F362634F1F34CB4700080B12 /* SettingBundleExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingBundleExampleUITests.swift; sourceTree = "<group>"; };
 		F36263511F34CB4700080B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F362635A1F34CBB300080B12 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				F36263411F34CB4700080B12 /* Assets.xcassets */,
 				F36263431F34CB4700080B12 /* LaunchScreen.storyboard */,
 				F36263461F34CB4700080B12 /* Info.plist */,
+				F362635A1F34CBB300080B12 /* Settings.bundle */,
 			);
 			path = SettingBundleExample;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F362635B1F34CBB300080B12 /* Settings.bundle in Resources */,
 				F36263451F34CB4700080B12 /* LaunchScreen.storyboard in Resources */,
 				F36263421F34CB4700080B12 /* Assets.xcassets in Resources */,
 				F36263401F34CB4700080B12 /* Main.storyboard in Resources */,
